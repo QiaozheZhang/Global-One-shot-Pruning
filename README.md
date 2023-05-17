@@ -1,1 +1,1 @@
-# GeometricPruning
+# Global One-shot Pruning
