@@ -3,10 +3,6 @@
 ## Project Info
 This project is the official implementation of the paper "How Sparse Can We Prune a Deep Network: A Geometric Viewpoint".
 
-## Overview
-
-Overparameterization constitutes one of the most significant  hallmarks of deep neural networks. Though it can offer the advantage of outstanding generalization performance, it meanwhile imposes substantial storage burden, thus necessitating the study of network pruning.  A natural and  fundamental question is: How sparse can we prune a deep network (with almost no hurt on the performance)?  To address this problem, in this work we take a first principles approach,  specifically, by merely enforcing the sparsity constraint on the original loss function, we're able to characterize the sharp phase transition point of pruning ratio, which corresponds to the  boundary between the feasible and the infeasible, from the perspective of high-dimensional geometry.  It turns out that the phase transition point of pruning ratio equals the squared Gaussian width of some convex body resulting from the \(l_1\)-regularized loss function,  normalized by the original dimension of parameters. As a byproduct, we provide a novel network pruning algorithm which is essentially a global one-shot pruning one. Furthermore, we provide efficient countermeasures to address the challenges in computing the involved Gaussian width, including the spectrum estimation of a large-scale Hessian matrix and dealing with the non-definite positiveness of a Hessian matrix.  It is demonstrated that the predicted pruning ratio threshold coincides very well with the actual value obtained from the experiments and our proposed pruning algorithm can achieve competitive or even better performance than the existing pruning algorithms.
-
 ## Installation
 
 ### 1. Requirements
