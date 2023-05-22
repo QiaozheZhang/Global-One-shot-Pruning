@@ -1,5 +1,8 @@
 # How Sparse Can We Prune a Deep Network
 
+## Project Info
+This project is the official implementation of the paper "How Sparse Can We Prune a Deep Network: A Geometric Viewpoint".
+
 ## Overview
 
 ---
@@ -47,7 +50,7 @@ python gaussian_width.py --config path_to_the_config
 
 ## Configs
 
-Note that workflows are managed by using `.yml` files specified in the configs/ directory. Please refer to them to create new configurations, e.g. `AlexNet_CIFAR10_l1.yml`.
+Note that workflows are managed by using `.yml` files specified in the `configs/` directory. Please refer to them to create new configurations, e.g. `AlexNet_CIFAR10_l1.yml`.
 
 ## Sample Config
 
