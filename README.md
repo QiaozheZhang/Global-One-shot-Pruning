@@ -1,4 +1,4 @@
-# How Sparse Can We Prune a Deep Network
+# How Sparse Can We Prune a Deep Network: A Geometric Viewpoint
 
 ## Project Info
 This project is the official implementation of the paper "How Sparse Can We Prune a Deep Network: A Geometric Viewpoint".
