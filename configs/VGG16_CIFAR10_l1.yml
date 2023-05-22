@@ -1,0 +1,38 @@
+model: VGG16
+init: kaiming_normal
+data_path: "datasets/"
+dataset: cifar10
+
+use_full_data: True
+
+batch_size: 128
+gpu: 0
+
+criterion: cross_entropy
+
+optim: sgd
+lr: 0.01
+momentum: 0.9
+weight_decay: 0 #0.0001
+
+warm: 5
+schedu: False
+gamma: 0.5
+milestones: [60, 120, 160]
+schedumode: multistep
+
+
+epoch: 200
+l1: True
+lmbda: 0.0001 #0.0001
+regularizer: L1
+mode: train
+sparse: True
+sparse_epoch: 1000
+
+file_path: ' '
+
+save_model: True
+
+lanczos_iter: 128
+lanczos_num: 1

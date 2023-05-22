@@ -1,0 +1,37 @@
+model: AlexNet
+init: kaiming_normal
+data_path: "datasets/"
+dataset: cifar10
+
+use_full_data: True
+
+batch_size: 128
+gpu: 0
+
+criterion: cross_entropy
+
+optim: sgd
+lr: 0.01
+momentum: 0.9
+weight_decay: 0 #0.0001
+gamma: 0.5
+
+warm: 5
+schedu: True
+milestones: [60, 120, 160]
+schedumode: multistep #cos
+
+epoch: 200
+l1: False
+lmbda: 0.00003
+regularizer: L1
+mode: train
+sparse: False
+sparse_epoch: 1000
+
+file_path: ' '
+
+save_model: True
+
+lanczos_iter: 96
+lanczos_num: 1
