@@ -14,11 +14,15 @@ Overparameterization constitutes one of the most significant  hallmarks of deep 
 * Python 3.8.10
 * Pytorch 1.12.1
 * torchvision 0.13.1
-* CUDA 11.6.0
+* CUDA 11.3.1
 * cuDNN 8
 * tqdm
+* pandas
+* pyyaml
+* matplotlib
+* numpy>=1.20
 
-Have tested on docker `nvidia/cuda:11.6.0-cudnn8-devel-ubuntu20.04` with RTX3090, Intel 10920X and 196G RAM.
+Have tested on docker `nvidia/cuda:11.3.1-cudnn8-devel-ubuntu20.04` with RTX3090, Intel 10920X, 196G RAM and a 4T ssd.
 
 **Note: the model is saved in each step of the training and sparse process, this project takes up a lot of disk space, please always pay attention to the remaining capacity of the disk to avoid quitting the experiment** 
 
