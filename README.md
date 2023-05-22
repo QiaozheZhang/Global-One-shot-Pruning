@@ -36,7 +36,7 @@ python gradient.py --config path_to_the_config
 
 **Note:** important eigenvalues calculation is only suitable for large networks including **Alexnet, VGG16, ResNet18 and ResNet50**.
 
-### 4.Calculate the Gaussain Width
+### 4. Calculate the Gaussain Width
 
 ```bash
 python gaussian_width.py --config path_to_the_config
