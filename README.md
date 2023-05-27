@@ -3,9 +3,7 @@
 ## Project Info
 This project is the official implementation of the paper "How Sparse Can We Prune a Deep Network: A Geometric Viewpoint".
 
-## Installation
-
-### 1. Requirements
+## Prerequisites
 
 * Python 3.8.10
 * Pytorch 1.12.1
@@ -21,6 +19,17 @@ This project is the official implementation of the paper "How Sparse Can We Prun
 Have tested on docker `nvidia/cuda:11.3.1-cudnn8-devel-ubuntu20.04` with RTX3090, Intel 10920X, 196G RAM and a 4T ssd.
 
 **Note: the model is saved in each step of the training and sparse process, this project takes up a lot of disk space, please always pay attention to the remaining capacity of the disk to avoid quitting the experiment** 
+
+## Installation
+
+### 1.Clone this repo:
+```bash
+git clone https://github.com/QiaozheZhang/Global-One-shot-Pruning.git
+cd Global-One-shot-Pruning
+```
+### 2.Install dependencies
+
+## Usage
 
 ### 2. Train Network & Get Sparse Model
 
