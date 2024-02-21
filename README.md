@@ -1,7 +1,7 @@
-# How Sparse Can We Prune a Deep Network: A Geometric Viewpoint
+# How Sparse Can We Prune A Deep Network: A Fundamental Limit Viewpoint
 
 ## Project Info
-This project is the official implementation of the paper [How Sparse Can We Prune a Deep Network: A Geometric Viewpoint](https://arxiv.org/abs/2306.05857).
+This project is the official implementation of the paper [How Sparse Can We Prune A Deep Network: A Fundamental Limit Viewpoint](https://arxiv.org/abs/2306.05857).
 
 ## Prerequisites
 
