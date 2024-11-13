@@ -23,12 +23,12 @@ Have tested on docker `nvidia/cuda:11.3.1-cudnn8-devel-ubuntu20.04` with RTX3090
 
 ## Installation
 
-### 1.Clone this repo:
+### 1. Clone this repo:
 ```bash
 git clone https://github.com/QiaozheZhang/Global-One-shot-Pruning.git
 cd Global-One-shot-Pruning
 ```
-### 2.Install dependencies
+### 2. Install dependencies
 
 ## Usage
 
@@ -46,7 +46,7 @@ python gradient.py --config path_to_the_config
 
 **Note:** important eigenvalues calculation is only suitable for large networks including **Alexnet, VGG16, ResNet18 and ResNet50**.
 
-### 4. Calculate the Gaussain Width
+### 4. Calculate the Gaussian Width (waiting for update)
 
 ```bash
 python gaussian_width.py --config path_to_the_config
